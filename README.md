@@ -7,7 +7,7 @@
 >The page can ben visualized [on codepen](https://codepen.io/aleperf/pen/abdexrG)
 
 ## Javascript Algorithms and Data Structures
->Five projects using vanilla javascript:
+>[Five projects built using vanilla javascript](fcc-projects/javascript-algorithms-and-data-structures/):
 <ul>
 <li>Palindrome Checker</li>
 <li>Roman Numeral Converter</li>
