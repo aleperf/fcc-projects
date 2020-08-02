@@ -1,0 +1,172 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #121d37;
+  background-color: #d2ecf9;
+  font-family: "Merriweather", serif;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#title {
+  font-family: "Great Vibes";
+  padding: 0 10px;
+}
+
+#title-section {
+  color: white;
+  background-color: #253b6f;
+  font-family: "Great Vibes", cursive;
+  font-size: 2.5rem;
+  padding: 100px 0 50px 0;
+  text-align: center;
+}
+
+#subtitle {
+  font-family: "Raleway", serif;
+  font-size: 1.2rem;
+}
+
+#img-div {
+  background-color: #253b6f;
+  color: white;
+  padding-bottom: 50px;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+}
+#image {
+  border-radius: 50%;
+  border: 8px solid white;
+  display: block;
+  font-style: italic;
+  margin: 0 auto 30px auto;
+  width: 30%;
+}
+
+#img-caption {
+  font-family: "Raleway";
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#tribute-info {
+  background-color: #f7fbe1;
+  margin: 0px auto;
+  padding: 50px 0;
+}
+
+.section-title {
+  color: #253b6e;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.section-content {
+  font-size: 1.2rem;
+  margin: 0 auto;
+  text-align: justify;
+  width: 50%;
+}
+.tribute-info ul {
+  list-style-type: none;
+}
+
+.fun-facts {
+  margin: 50px auto;
+}
+
+.resources {
+  background-color: #f7fbe1;
+  margin: 0 auto 100px auto;
+  padding: 50px 0;
+  width: 50%;
+}
+
+ul {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+ul li {
+  list-style-type: none;
+}
+p + p {
+  margin-top: 10px;
+}
+
+.quotation {
+  margin: 0 auto;
+  padding: 10px;
+  text-align: justify;
+  width: 70%;
+}
+
+@media screen and (max-width: 800px) {
+  #title-section {
+    font-size: 1.8rem;
+  }
+
+  #subtitle {
+    font-size: 1rem;
+  }
+
+  .section-title {
+    font-size: 1.4rem;
+  }
+
+  .section-content {
+    font-size: 1.1rem;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  #img-caption {
+    font-size: 0.8rem;
+  }
+
+  #image {
+    border: 5px solid white;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #title-section {
+    font-size: 1.5rem;
+  }
+
+  #subtitle {
+    font-size: 1rem;
+  }
+
+  .section-title {
+    font-size: 1.4rem;
+  }
+
+  .section-content {
+    font-size: 1rem;
+  }
+
+  #img-caption {
+    font-size: 0.8rem;
+  }
+
+  #image {
+    width: 40%;
+  }
+
+  .resources {
+    padding: 10px 5px 20px 5px;
+    width: 65%;
+  }
+}
