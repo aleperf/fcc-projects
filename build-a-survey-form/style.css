@@ -1,0 +1,170 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d1b38;
+  color: #282828;
+  font-family: Quicksand, Verdana, sans-serif;
+}
+h1,
+h2 {
+  font-family: Literata, Georgia, "Times New Roman", Times, serif;
+  padding-bottom: 20px;
+}
+
+h2 {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.quill{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#quill-img{
+    width: 15%;
+    height: auto;
+}
+
+label {
+  padding-bottom: 8px;
+  display: block;
+}
+
+section {
+  padding-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 20px 0;
+}
+
+.instructions {
+  font-style: bold;
+}
+
+.container {
+  margin: 2rem auto;
+}
+
+#description {
+  font-family: Quicksand, Verdana, sans-serif;
+}
+
+#title,
+#description {
+  text-align: center;
+  padding: 0.5rem;
+  color: #ffdeec;
+}
+
+.personal-info input,
+select,
+#number {
+  width: 100%;
+  height: 2rem;
+  border-radius: 5px;
+  border: none;
+}
+
+#survey-form {
+  margin-top: 2rem;
+  border-radius: 50px;
+  padding: 2rem 2.1rem 4rem 2.1rem;
+  background-color: #e79cc2;
+}
+
+.reading-group-yes-no {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.radio-horizontal {
+  margin-right: 20px;
+}
+
+input {
+  text-indent: 10px;
+  font-family: Quicksand, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lma-books {
+  display: inline;
+}
+.radios {
+  display: inline;
+}
+
+textarea {
+  width: 100%;
+  border:none;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-indent: 10px;
+  font-family: Quicksand;
+  resize: vertical;
+}
+
+#submit {
+  width: 100%;
+  padding: 0.7rem 0;
+  margin-bottom: 25px;
+  font-family: Verdana, sans-serif;
+  font-style: bold;
+  background-color: #336d88;
+  color: white;
+  border: 0;
+  box-shadow: none;
+  border-radius: 5px;
+}
+
+footer{
+    color: white;
+    margin: 30px auto;
+    text-align: center;
+}
+
+footer a {
+    color:  #e79cc2;
+}
+
+footer a:visited {
+    color:#67b6db;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 900px) {
+  #survey-form {
+    margin: 2rem 8px 2rem 8px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    #quill-img{
+        width: 20%;
+        height: auto;
+    }
+  }
